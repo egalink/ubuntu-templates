@@ -12,8 +12,8 @@ define([
     "N/log",
     "N/error"
 
-], function (Log, Error) {
-	
+], function (log, error) {
+
     'use strict';
 
     /**

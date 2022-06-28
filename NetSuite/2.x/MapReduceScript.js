@@ -8,7 +8,7 @@ define([
     "N/log",
     "N/error",
 
-], function (Log, Error) {
+], function (log, error) {
 
     'use strict';
 
@@ -95,7 +95,8 @@ define([
         //          "{\"internalid\":\"1234567890\"}",
         //          "{\"internalid\":\"1234567890\"}",
         //          "{\"internalid\":\"1234567890\"}",
-        //     ]        
+        //     ]
+        
     }
 
     return {
